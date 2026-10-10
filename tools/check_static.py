@@ -18,6 +18,7 @@ EXPORTED_ROUTES = [
     '_not-found/index.html',
     'astro/index.html',
     'astro/tools/index.html',
+    'astro/map/index.html',
     'astro/tonight/index.html',
     'astro/planner/index.html',
     'astro/compare/index.html',
