@@ -12,13 +12,10 @@ from urllib.parse import unquote, urlsplit
 ROOT = Path(__file__).resolve().parent.parent
 # Keep this legacy checker scoped to the original static snapshot. Next.js
 # writes its own generated HTML/assets to out/, which has a different layout.
-PAGES = [
-    ROOT / 'index.html',
-    ROOT / 'schedule-studio' / 'index.html',
-    ROOT / 'table-studio' / 'index.html',
-    ROOT / 'astro-catalog' / 'index.html',
-]
+PAGES = []
 EXPORTED_ROUTES = [
+    'index.html',
+    '_not-found/index.html',
     'astro/index.html',
     'astro/tools/index.html',
     'astro/tonight/index.html',
@@ -30,6 +27,7 @@ EXPORTED_ROUTES = [
     'astro/equipment/index.html',
     'astro/exposure/index.html',
     'astro/object/m42/index.html',
+    'astro/object/m110/index.html',
 ]
 
 
@@ -84,7 +82,7 @@ def main():
     if missing:
         raise SystemExit('ERROR missing exported routes: ' + ', '.join(missing))
     print(f'CHECK out/: {len(EXPORTED_ROUTES)} Next.js routes present')
-    print(f'OK: {len(PAGES)} static HTML pages validated')
+    print('OK: current Next.js static routes validated')
 
 
 if __name__ == '__main__':

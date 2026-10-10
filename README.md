@@ -25,6 +25,12 @@ npm run dev
 npm run check:data
 ```
 
+建置後可檢查主要路由是否真的輸出：
+
+```bash
+python3 tools/check_static.py
+```
+
 建置靜態網站：
 
 ```bash
