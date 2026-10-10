@@ -25,6 +25,8 @@ jobs:
         run: npm ci
       - name: Run tests
         run: npm test
+      - name: Check astronomy data
+        run: npm run check:data
       - name: Typecheck
         run: npm run typecheck
       - name: Build static site

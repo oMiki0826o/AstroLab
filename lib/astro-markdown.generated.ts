@@ -242,29 +242,6 @@ export const markdownCatalog = [
     "source": "content/astro/common.md"
   },
   {
-    "id": "ngc4565-markdown",
-    "name": "NGC 4565｜針狀星系",
-    "aliases": [
-      "Needle Galaxy"
-    ],
-    "type": "星系",
-    "constellation": "后髮座",
-    "ra": "12h 36m 21s",
-    "dec": "+25° 59′",
-    "angularSize": "16′ × 2′",
-    "distance": "4,000 萬光年",
-    "magnitude": 9.6,
-    "note": "側向螺旋星系，長而細的外觀是它最明顯的辨識特徵。",
-    "nearbyStars": [
-      "Cor Caroli",
-      "Coma Berenices Cluster",
-      "M64"
-    ],
-    "searchGuide": "春季由獵犬座與后髮座交界尋找，建議用中長焦與星圖核對。",
-    "dataStatus": "complete",
-    "source": "content/astro/common.md"
-  },
-  {
     "id": "ic434-markdown",
     "name": "IC 434｜馬頭星雲",
     "aliases": [
@@ -285,54 +262,6 @@ export const markdownCatalog = [
       "Flame Nebula"
     ],
     "searchGuide": "以獵戶座腰帶最東側的參宿一（Alnitak）為定位點，向南尋找發射星雲 IC 434。",
-    "dataStatus": "complete",
-    "source": "content/astro/common.md"
-  },
-  {
-    "id": "ngc869-markdown",
-    "name": "NGC 869｜英仙座雙星團西側",
-    "aliases": [
-      "h Persei",
-      "Double Cluster"
-    ],
-    "type": "疏散星團",
-    "constellation": "英仙座",
-    "ra": "02h 19m 00s",
-    "dec": "+57° 08′",
-    "angularSize": "30′",
-    "distance": "7,500 光年",
-    "magnitude": 5.3,
-    "note": "與 NGC 884 組成英仙座雙星團，雙筒望遠鏡即可看到兩片密集星群。",
-    "nearbyStars": [
-      "NGC 884",
-      "Mirfak",
-      "Algol"
-    ],
-    "searchGuide": "從仙后座 W 形向東南尋找，雙星團位於英仙座與仙后座之間的銀河帶。",
-    "dataStatus": "complete",
-    "source": "content/astro/common.md"
-  },
-  {
-    "id": "ngc884-markdown",
-    "name": "NGC 884｜英仙座雙星團東側",
-    "aliases": [
-      "χ Persei",
-      "Double Cluster"
-    ],
-    "type": "疏散星團",
-    "constellation": "英仙座",
-    "ra": "02h 22m 00s",
-    "dec": "+57° 07′",
-    "angularSize": "30′",
-    "distance": "7,500 光年",
-    "magnitude": 6.1,
-    "note": "與 NGC 869 同視野，是北半球冬季最漂亮的雙筒目標之一。",
-    "nearbyStars": [
-      "NGC 869",
-      "Mirfak",
-      "Algol"
-    ],
-    "searchGuide": "先找到 NGC 869，向東移動約半度即可看到另一團星群。",
     "dataStatus": "complete",
     "source": "content/astro/common.md"
   },

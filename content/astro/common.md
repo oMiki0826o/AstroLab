@@ -142,20 +142,6 @@ note: 面積大但表面亮度低，適合暗空與長時間攝影，不宜只�
 nearbyStars: Alkaid, Mizar, M51
 searchGuide: 從北斗斗柄末端向東北尋找，拍攝時使用較大的視野保留旋臂結構。
 
-## NGC 4565｜針狀星系
-id: ngc4565-markdown
-aliases: Needle Galaxy
-type: 星系
-constellation: 后髮座
-ra: 12h 36m 21s
-dec: +25° 59′
-angularSize: 16′ × 2′
-distance: 4,000 萬光年
-magnitude: 9.6
-note: 側向螺旋星系，長而細的外觀是它最明顯的辨識特徵。
-nearbyStars: Cor Caroli, Coma Berenices Cluster, M64
-searchGuide: 春季由獵犬座與后髮座交界尋找，建議用中長焦與星圖核對。
-
 ## IC 434｜馬頭星雲
 id: ic434-markdown
 aliases: Horsehead Nebula, Barnard 33
@@ -169,34 +155,6 @@ magnitude: 6.8
 note: 需要合適濾鏡、暗空與長時間曝光；肉眼與小型望遠鏡不容易直接看見馬頭輪廓。
 nearbyStars: Alnitak, M42, Flame Nebula
 searchGuide: 以獵戶座腰帶最東側的參宿一（Alnitak）為定位點，向南尋找發射星雲 IC 434。
-
-## NGC 869｜英仙座雙星團西側
-id: ngc869-markdown
-aliases: h Persei, Double Cluster
-type: 疏散星團
-constellation: 英仙座
-ra: 02h 19m 00s
-dec: +57° 08′
-angularSize: 30′
-distance: 7,500 光年
-magnitude: 5.3
-note: 與 NGC 884 組成英仙座雙星團，雙筒望遠鏡即可看到兩片密集星群。
-nearbyStars: NGC 884, Mirfak, Algol
-searchGuide: 從仙后座 W 形向東南尋找，雙星團位於英仙座與仙后座之間的銀河帶。
-
-## NGC 884｜英仙座雙星團東側
-id: ngc884-markdown
-aliases: χ Persei, Double Cluster
-type: 疏散星團
-constellation: 英仙座
-ra: 02h 22m 00s
-dec: +57° 07′
-angularSize: 30′
-distance: 7,500 光年
-magnitude: 6.1
-note: 與 NGC 869 同視野，是北半球冬季最漂亮的雙筒目標之一。
-nearbyStars: NGC 869, Mirfak, Algol
-searchGuide: 先找到 NGC 869，向東移動約半度即可看到另一團星群。
 
 ## NGC 1499｜加州星雲
 id: ngc1499-markdown

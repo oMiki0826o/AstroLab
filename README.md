@@ -19,6 +19,12 @@ npm ci
 npm run dev
 ```
 
+檢查天體資料欄位與重複 ID：
+
+```bash
+npm run check:data
+```
+
 建置靜態網站：
 
 ```bash
