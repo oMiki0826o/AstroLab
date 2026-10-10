@@ -11,6 +11,8 @@ AstroLab is a static, no-login astronomy toolkit for searching Messier, NGC, IC 
 - Sky Tonight：用觀測時間與位置估算高度角、方位角。
 - Deep Sky Finder、Constellation Explorer、Moon Phase Explorer。
 - Equipment Planner、Exposure Calculator、Target Comparison。
+- 英文入口 `/en/`：提供上述工具的英文導覽；天體資料與主要工具頁仍以繁中內容為主，正在分批補齊。
+- 天體詳細頁會標示資料狀態與來源；`index` 項目只代表可搜尋索引，不等同完整星曆資料。
 
 ## 開發
 
@@ -37,7 +39,7 @@ python3 tools/check_static.py
 NEXT_PUBLIC_BASE_PATH=/AstroLab npm run build
 ```
 
-天體內容位於 `content/astro/common.md`，欄位格式與精度規則見同目錄的 README。資料是觀測規劃用的整理值，不取代專業星圖、即時星曆或天文台資料。
+天體內容位於 `content/astro/common.md`，欄位格式與精度規則見同目錄的 README。資料是觀測規劃用的整理值，不取代專業星圖、即時星曆或天文台資料。每次建置會先執行 `npm run check:data`，檢查欄位、重複 ID 與資料狀態。
 
 ## 授權
 
