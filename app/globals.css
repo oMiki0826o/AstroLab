@@ -37,3 +37,11 @@ body{background-color:#07111f;background-image:radial-gradient(circle at 18% 8%,
 .panel:hover,.astro-card:hover,.astro-tool-card:hover{border-color:rgba(241,184,117,.58);box-shadow:0 18px 48px rgba(0,0,0,.3)}
 .tag,.eyebrow{color:var(--accent)}.button{background:rgba(19,43,64,.8);border-color:var(--line)}.button.primary{background:var(--accent);color:#13202d;border-color:var(--accent)}
 .astro-grid,.astro-tools-grid,.constellation-grid{position:relative}
+
+:root[data-theme="light"]{--ink:#172b3d;--muted:#526b7c;--paper:#eef4f7;--card:rgba(255,255,255,.9);--line:#b8ccd8;--accent:#bd673e;--accent-soft:#f2ddd2;--focus:#287aa5;color-scheme:light}
+:root[data-theme="dark"]{--ink:#e4edf5;--muted:#9bb0c2;--paper:#06101d;--card:rgba(10,27,45,.9);--line:rgba(137,176,211,.3);--accent:#f1bd7b;--accent-soft:rgba(241,189,123,.16);--focus:#8bd5ff;color-scheme:dark}
+:root[data-theme="red"]{--ink:#f8e8e2;--muted:#cba9a2;--paper:#1b090d;--card:rgba(49,17,23,.9);--line:rgba(226,132,118,.34);--accent:#ff9b83;--accent-soft:rgba(255,126,103,.16);--focus:#ffc1a9;color-scheme:dark}
+:root[data-theme="light"] body{background-image:radial-gradient(circle at 18% 8%,rgba(82,145,203,.16),transparent 24rem),linear-gradient(120deg,#eef4f7,#e3edf2)}
+:root[data-theme="red"] body{background-image:radial-gradient(circle at 15% 5%,rgba(205,66,64,.3),transparent 25rem),radial-gradient(circle at 90% 10%,rgba(255,171,117,.12),transparent 20rem),radial-gradient(circle,rgba(255,205,180,.4) 0 1px,transparent 1.5px);background-size:auto,auto,107px 127px}
+:root[data-theme="light"] .panel,:root[data-theme="light"] .astro-card,:root[data-theme="light"] .astro-detail,:root[data-theme="light"] .astro-tool-card{background:rgba(255,255,255,.78);box-shadow:0 14px 34px rgba(34,69,91,.12)}
+:root[data-theme="red"] .panel,:root[data-theme="red"] .astro-card,:root[data-theme="red"] .astro-detail,:root[data-theme="red"] .astro-tool-card{background:linear-gradient(145deg,rgba(61,20,27,.94),rgba(35,10,16,.94));box-shadow:0 18px 44px rgba(0,0,0,.36)}
