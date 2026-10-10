@@ -2,7 +2,7 @@ import Link from "next/link";
 import ThemeToggle from "../../../../components/theme-toggle";
 
 const tools = [
-  ["Sky Map", "Open the relative target map and select a point for its object page.", "/AstroLab/astro/map/"],
+  ["Sky Map", "Open the relative target map and select a point for its object page.", "/AstroLab/en/astro/map/"],
   ["Astro Catalog", "Search the shared Messier, NGC, IC and bright-star catalogue.", "/AstroLab/astro/"],
   ["Sky Tonight", "Estimate altitude, azimuth and a useful observation window.", "/AstroLab/astro/tonight/"],
   ["Deep Sky Finder", "Filter deep-sky targets by type, constellation and magnitude.", "/AstroLab/astro/deep-sky/"],

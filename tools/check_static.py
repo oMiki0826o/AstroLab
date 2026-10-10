@@ -31,6 +31,7 @@ EXPORTED_ROUTES = [
     'astro/object/m110/index.html',
     'en/index.html',
     'en/astro/tools/index.html',
+    'en/astro/map/index.html',
     'en/astro/object/m42/index.html',
     'en/astro/object/m110/index.html',
 ]
@@ -90,6 +91,7 @@ def main():
         'astro/tools/index.html': ('Astro Tools', 'AstroLab'),
         'astro/map/index.html': ('Sky Map', 'Astro Catalog'),
         'en/astro/tools/index.html': ('Observation tools', 'AstroLab'),
+        'en/astro/map/index.html': ('Sky Map', 'Observation tools'),
     }
     for route, required in content_expectations.items():
         page = exported_root / route
