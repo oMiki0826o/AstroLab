@@ -33,6 +33,7 @@ EXPORTED_ROUTES = [
     'en/astro/tools/index.html',
     'en/astro/tonight/index.html',
     'en/astro/deep-sky/index.html',
+    'en/astro/constellations/index.html',
     'en/astro/map/index.html',
     'en/astro/object/m42/index.html',
     'en/astro/object/m110/index.html',
@@ -95,6 +96,7 @@ def main():
         'en/astro/tools/index.html': ('Observation tools', 'AstroLab'),
         'en/astro/tonight/index.html': ('Sky Tonight', 'Observation tools'),
         'en/astro/deep-sky/index.html': ('Deep Sky Finder', 'Observation tools'),
+        'en/astro/constellations/index.html': ('Constellation Explorer', 'Observation tools'),
         'en/astro/map/index.html': ('Sky Map', 'Observation tools'),
     }
     for route, required in content_expectations.items():

@@ -6,7 +6,7 @@ const tools = [
   ["Astro Catalog", "Search the shared Messier, NGC, IC and bright-star catalogue.", "/AstroLab/astro/"],
   ["Sky Tonight", "Estimate altitude, azimuth and a useful observation window.", "/AstroLab/en/astro/tonight/"],
   ["Deep Sky Finder", "Filter deep-sky targets by type, constellation and magnitude.", "/AstroLab/en/astro/deep-sky/"],
-  ["Constellation Explorer", "Browse catalogue targets grouped by constellation.", "/AstroLab/astro/constellations/"],
+  ["Constellation Explorer", "Browse catalogue targets grouped by constellation.", "/AstroLab/en/astro/constellations/"],
   ["Moon Phase", "Use the approximate lunar phase when planning a session.", "/AstroLab/astro/moon/"],
   ["Equipment Planner", "Estimate a camera field of view from focal length and sensor size.", "/AstroLab/astro/equipment/"],
   ["Exposure Calculator", "Draft sub-exposure counts and total integration time.", "/AstroLab/astro/exposure/"],
