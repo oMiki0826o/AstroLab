@@ -16,6 +16,7 @@ magnitude: 4.0
 note: 活躍的恆星形成區。
 nearbyStars: 參宿四 Betelgeuse, 參宿七 Rigel
 searchGuide: 先找獵戶座腰帶，再依提示確認位置。
+dataStatus: complete
 ```
 
 ## 欄位說明
@@ -28,5 +29,6 @@ searchGuide: 先找獵戶座腰帶，再依提示確認位置。
 - `note`：一句觀測或攝影摘要。
 - `nearbyStars`：以逗號列出附近亮星或可用來跳轉的參考目標。
 - `searchGuide`：用肉眼可理解的方式描述如何在星圖中找到目標。
+- `dataStatus`：資料狀態；`complete` 為已整理目標、`index` 為可搜尋索引、`needs-review` 為等待資料核對。缺省時視為 `complete`。
 
 資料缺少精確值時，請明確寫在 `note` 或 `searchGuide`，不要用看似精準的數字填補空白。新增內容後執行 `npm run build`，建置流程會重新產生 `lib/astro-markdown.generated.ts`。

@@ -1,10 +1,10 @@
 {
-  "name": "Small Things Lab",
-  "short_name": "STLab",
-  "description": "Offline-friendly small web tools.",
+  "name": "AstroLab",
+  "short_name": "AstroLab",
+  "description": "A small static astronomy catalogue and observation toolkit.",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#f6f5f0",
-  "theme_color": "#17212b",
+  "background_color": "#07111f",
+  "theme_color": "#0b1b30",
   "icons": []
 }

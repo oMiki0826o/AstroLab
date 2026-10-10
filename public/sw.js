@@ -1,5 +1,5 @@
-const CACHE_NAME = "stlab-v0.1-shell-2";
-const APP_SHELL = ["./", "./schedule/", "./table/", "./astro/", "./exam/"];
+const CACHE_NAME = "astrolab-v0.1-shell-1";
+const APP_SHELL = ["./", "./astro/", "./astro/tools/", "./astro/tonight/", "./astro/planner/"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(APP_SHELL)));

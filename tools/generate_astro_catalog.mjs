@@ -22,6 +22,7 @@ const entries = source.split(/^## /m).slice(1).map((block) => {
     note: values.note,
     nearbyStars: values.nearbyStars.split(", "),
     searchGuide: values.searchGuide,
+    dataStatus: values.dataStatus || "complete",
     source: "content/astro/common.md",
   };
 });
