@@ -84,6 +84,11 @@ def main():
     missing = [route for route in EXPORTED_ROUTES if not (exported_root / route).exists()]
     if missing:
         raise SystemExit('ERROR missing exported routes: ' + ', '.join(missing))
+    zh_objects = list((exported_root / 'astro' / 'object').glob('*/index.html'))
+    en_objects = list((exported_root / 'en' / 'astro' / 'object').glob('*/index.html'))
+    if not zh_objects or len(zh_objects) != len(en_objects):
+        raise SystemExit(f'ERROR object route mismatch: zh={len(zh_objects)} en={len(en_objects)}')
+    print(f'CHECK object detail pages: zh={len(zh_objects)} en={len(en_objects)}')
     print(f'CHECK out/: {len(EXPORTED_ROUTES)} Next.js routes present')
     print('OK: current Next.js static routes validated')
 
