@@ -121,6 +121,18 @@ def main():
     if not zh_objects or len(zh_objects) != len(en_objects):
         raise SystemExit(f'ERROR object route mismatch: zh={len(zh_objects)} en={len(en_objects)}')
     print(f'CHECK object detail pages: zh={len(zh_objects)} en={len(en_objects)}')
+    detail_expectations = {
+        'astro/object/m42/index.html': ('資料狀態', '資料來源', '怎麼找到它', '開啟今晚觀測'),
+        'astro/object/m110/index.html': ('資料狀態', '索引資料', '怎麼找到它'),
+        'en/astro/object/m42/index.html': ('Status', 'Source', 'How to find it', 'Open tonight planner'),
+        'en/astro/object/m110/index.html': ('Status', 'Index entry', 'How to find it'),
+    }
+    for route, required in detail_expectations.items():
+        content = (exported_root / route).read_text(encoding='utf-8')
+        for phrase in required:
+            if phrase not in content:
+                raise SystemExit(f'ERROR {route} missing detail content: {phrase}')
+    print(f'CHECK object detail content: {len(detail_expectations)} samples')
     print(f'CHECK out/: {len(EXPORTED_ROUTES)} Next.js routes present')
     print('OK: current Next.js static routes validated')
 
