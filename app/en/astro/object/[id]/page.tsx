@@ -19,7 +19,7 @@ export default async function EnglishAstroObject({ params }: { params: Promise<{
           <Link className="back" href="/AstroLab/en/">← AstroLab</Link>
           <span className="tag">{item.type}</span>
           <h1>{item.name}</h1>
-          <p className="muted">{item.note}</p>
+          <p className="muted">Catalogue note: {item.note}</p>
         </div>
         <ThemeToggle />
       </div>
@@ -38,7 +38,7 @@ export default async function EnglishAstroObject({ params }: { params: Promise<{
           <div><dt>Nearby stars</dt><dd>{item.nearbyStars?.join(", ") || "Not yet curated"}</dd></div>
         </dl>
         <div className="object-note"><h2>How to find it</h2><p>{item.searchGuide || "Use the constellation and coordinates to locate this target on a star chart."}</p><h2>Observation note</h2><p>{item.note}</p></div>
-        <div className="actions"><Link className="button primary" href={`/AstroLab/astro/tonight/?target=${item.id}`}>Open tonight planner</Link><Link className="button" href="/AstroLab/astro/">Back to catalogue</Link></div>
+        <div className="actions"><Link className="button primary" href={`/AstroLab/en/astro/tonight/?target=${item.id}`}>Open tonight planner</Link><Link className="button" href="/AstroLab/en/astro/">Back to catalogue</Link></div>
       </section>
     </main>
   );
