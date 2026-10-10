@@ -33,6 +33,14 @@ export default function EnglishAstroLab() {
           </Link>
         ))}
       </section>
+      <section className="panel">
+        <span className="eyebrow">QUICK TARGETS</span>
+        <h2>Start with a familiar target</h2>
+        <p className="muted">Open a curated object page directly, then continue with the observation tools.</p>
+        <div className="actions">
+          {[['M42 · Orion Nebula', 'm42'], ['M31 · Andromeda Galaxy', 'm31'], ['M45 · Pleiades', 'm45']].map(([label, id]) => <Link className="button" href={`/AstroLab/en/astro/object/${id}/`} key={id}>{label} →</Link>)}
+        </div>
+      </section>
       <p className="muted"><Link href="/AstroLab/astro/">繁體中文入口</Link></p>
     </main>
   );

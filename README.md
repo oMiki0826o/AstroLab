@@ -39,6 +39,12 @@ python3 tools/check_static.py
 NEXT_PUBLIC_BASE_PATH=/AstroLab npm run build
 ```
 
+完整本機驗證可直接執行：
+
+```bash
+npm run check
+```
+
 天體內容位於 `content/astro/common.md`，欄位格式與精度規則見同目錄的 README。資料是觀測規劃用的整理值，不取代專業星圖、即時星曆或天文台資料。每次建置會先執行 `npm run check:data`，檢查欄位、重複 ID 與資料狀態。
 
 ## 授權
