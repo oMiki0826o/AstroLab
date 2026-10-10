@@ -86,6 +86,20 @@ def main():
     missing = [route for route in EXPORTED_ROUTES if not (exported_root / route).exists()]
     if missing:
         raise SystemExit('ERROR missing exported routes: ' + ', '.join(missing))
+    content_expectations = {
+        'astro/tools/index.html': ('Astro Tools', 'AstroLab'),
+        'astro/map/index.html': ('Sky Map', 'Astro Catalog'),
+        'en/astro/tools/index.html': ('Observation tools', 'AstroLab'),
+    }
+    for route, required in content_expectations.items():
+        page = exported_root / route
+        content = page.read_text(encoding='utf-8')
+        for phrase in required:
+            if phrase not in content:
+                raise SystemExit(f'ERROR {route} missing expected content: {phrase}')
+        if '← STLab' in content:
+            raise SystemExit(f'ERROR {route} contains stale STLab navigation')
+    print(f'CHECK route content: {len(content_expectations)} tool pages')
     zh_objects = list((exported_root / 'astro' / 'object').glob('*/index.html'))
     en_objects = list((exported_root / 'en' / 'astro' / 'object').glob('*/index.html'))
     if not zh_objects or len(zh_objects) != len(en_objects):
