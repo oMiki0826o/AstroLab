@@ -105,7 +105,7 @@ def main():
         'en/astro/equipment/index.html': ('Astro Equipment Planner', 'Observation tools'),
         'en/astro/exposure/index.html': ('Astro Exposure Calculator', 'Observation tools'),
         'en/astro/compare/index.html': ('Target Comparison', 'Observation tools'),
-        'en/astro/map/index.html': ('Sky Map', 'Observation tools'),
+        'en/astro/map/index.html': ('Sky Map', 'Sky Tonight'),
     }
     for route, required in content_expectations.items():
         page = exported_root / route
