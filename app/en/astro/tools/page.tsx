@@ -7,10 +7,10 @@ const tools = [
   ["Sky Tonight", "Estimate altitude, azimuth and a useful observation window.", "/AstroLab/en/astro/tonight/"],
   ["Deep Sky Finder", "Filter deep-sky targets by type, constellation and magnitude.", "/AstroLab/en/astro/deep-sky/"],
   ["Constellation Explorer", "Browse catalogue targets grouped by constellation.", "/AstroLab/en/astro/constellations/"],
-  ["Moon Phase", "Use the approximate lunar phase when planning a session.", "/AstroLab/astro/moon/"],
-  ["Equipment Planner", "Estimate a camera field of view from focal length and sensor size.", "/AstroLab/astro/equipment/"],
-  ["Exposure Calculator", "Draft sub-exposure counts and total integration time.", "/AstroLab/astro/exposure/"],
-  ["Target Comparison", "Compare two catalogue targets before a session.", "/AstroLab/astro/compare/"],
+  ["Moon Phase", "Use the approximate lunar phase when planning a session.", "/AstroLab/en/astro/moon/"],
+  ["Equipment Planner", "Estimate a camera field of view from focal length and sensor size.", "/AstroLab/en/astro/equipment/"],
+  ["Exposure Calculator", "Draft sub-exposure counts and total integration time.", "/AstroLab/en/astro/exposure/"],
+  ["Target Comparison", "Compare two catalogue targets before a session.", "/AstroLab/en/astro/compare/"],
 ];
 
 export default function EnglishToolsPage() {
