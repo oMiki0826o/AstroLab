@@ -47,5 +47,17 @@ for (const [id, guide] of Object.entries(curatedGuides)) {
   const item = catalog.find(entry => entry.id === id);
   if (item) Object.assign(item, guide);
 }
+for (const item of catalog) {
+  if (!item.searchGuide) {
+    item.searchGuide = item.indexOnly
+      ? `在搜尋欄輸入 ${item.aliases[0] ?? item.id.toUpperCase()}，先確認它所在的星座，再用星圖核對位置；這筆是目錄索引，沒有在這裡假裝提供精確星曆。`
+      : `先從${item.constellation}的主要亮星找起，再用赤經 ${item.ra}、赤緯 ${item.dec} 在星圖中確認。`;
+  }
+  if (!item.nearbyStars) {
+    item.nearbyStars = item.indexOnly
+      ? [`${item.constellation}主要亮星`, "同區域星圖參考"]
+      : [`${item.constellation}主要亮星`, "鄰近星圖參考"];
+  }
+}
 
 export function visibleCatalog(query: string, type: string) { const q = query.trim().toLowerCase(); return catalog.filter(item => (!item.indexOnly || !!q) && (!type || item.type === type) && (!q || `${item.name} ${item.aliases.join(" ")} ${item.constellation} ${item.note}`.toLowerCase().includes(q))); }
