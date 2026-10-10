@@ -1,17 +1,13 @@
-name: Deploy AstroLab
-
+name: Validate and deploy AstroLab
 on:
   push:
     branches: [main]
   pull_request:
-
 permissions:
   contents: read
-
 concurrency:
   group: astrolab-pages
   cancel-in-progress: true
-
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -20,20 +16,17 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: npm
       - name: Install dependencies
-        run: npm ci
-      - name: Run tests
-        run: npm test
-      - name: Check astronomy data
-        run: npm run check:data
-      - name: Typecheck
-        run: npm run typecheck
-      - name: Build static site
-        run: npm run build
+        run: npm install --no-audit --no-fund
+      - name: Test, typecheck, build and inspect static links
+        run: npm run check
         env:
           NEXT_PUBLIC_BASE_PATH: /AstroLab
-
+      - uses: actions/upload-artifact@v4
+        with:
+          name: astrolab-tested-export
+          path: ./out
+          if-no-files-found: error
   deploy:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     needs: check
@@ -46,23 +39,13 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/download-artifact@v4
         with:
-          node-version: '22'
-          cache: npm
-      - name: Install dependencies
-        run: npm ci
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-      - name: Build for project Pages path
-        run: npm run build
-        env:
-          NEXT_PUBLIC_BASE_PATH: /AstroLab
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+          name: astrolab-tested-export
+          path: ./out
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
-      - name: Deploy to GitHub Pages
-        id: deployment
+      - id: deployment
         uses: actions/deploy-pages@v4

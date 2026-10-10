@@ -1,5 +1,7 @@
 # 第三方資料與授權
 
-本專案本身採用 MIT License，完整條款請見根目錄的 `LICENSE`。
+AstroLab 程式碼使用 MIT 授權。這份重新整理的版本主要沿用原 `oMiki0826o/AstroLab` 中人工彙整的天體資料與觀星提示，**並未在本次重構中逐筆外部核對**。因此天體數值預設標記 `needs-review`。
 
-AstroCatalog 的部分天體資料整理自 [YaleBrightStarCatalog](https://github.com/brettonw/YaleBrightStarCatalog)。本專案引用的上游資料檔與原始專案授權，請以該上游儲存庫當時隨附的 `LICENSE`／版權聲明為準；本檔不將上游資料重新宣稱為 AstroLab 自有內容。這些資料僅作為 AstroLab 的靜態目錄來源，中文名稱、觀測提示與介面由 AstroLab 另行整理。
+原專案另提及 Yale Bright Star Catalog 的相關整理工作。若後續匯入該目錄的原始資料，必須先查閱並保留上游資料的版本與授權聲明，不能把原始資料當成 AstroLab 自有成果。
+
+建議的資料交叉核對來源包括 SIMBAD、VizieR、NASA 與國際天文學聯合會（IAU）發布的命名資料。名稱、資料格式與授權規範需個別確認，不能因資料可公開瀏覽便直接假定可任意大量再發布。

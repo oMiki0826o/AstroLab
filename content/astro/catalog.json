@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "m31",
+    "name": {
+      "zh-TW": "仙女座星系",
+      "en": "Andromeda Galaxy"
+    },
+    "aliases": [
+      "NGC 224"
+    ],
+    "type": "galaxy",
+    "constellation": {
+      "zh-TW": "仙女座",
+      "en": "Andromeda"
+    },
+    "raDeg": 10.68333333,
+    "decDeg": 41.26666667,
+    "epoch": "J2000",
+    "magnitude": 3.44,
+    "angularSize": "3.2° × 1.0°",
+    "distance": "254 萬光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "先由仙后座或秋季四邊形辨認仙女座，沿星鏈尋找橢圓形淡光斑。",
+      "en": "Find the Andromeda star chain from Cassiopeia or the Great Square."
+    },
+    "related": [
+      "m33"
+    ]
+  },
+  {
+    "id": "m42",
+    "name": {
+      "zh-TW": "獵戶座大星雲",
+      "en": "Orion Nebula"
+    },
+    "aliases": [
+      "NGC 1976"
+    ],
+    "type": "nebula",
+    "constellation": {
+      "zh-TW": "獵戶座",
+      "en": "Orion"
+    },
+    "raDeg": 83.82083333,
+    "decDeg": -5.38333333,
+    "epoch": "J2000",
+    "magnitude": 4.0,
+    "angularSize": "65′ × 60′",
+    "distance": "1,340 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "找到獵戶座腰帶後往南移至劍部，中間朦朧的亮斑就是 M42。",
+      "en": "Find Orion’s Belt, then look south along the sword for the nebula."
+    },
+    "related": [
+      "betelgeuse",
+      "rigel",
+      "ngc2024"
+    ]
+  },
+  {
+    "id": "m45",
+    "name": {
+      "zh-TW": "昴宿星團",
+      "en": "Pleiades"
+    },
+    "aliases": [
+      "七姊妹星團"
+    ],
+    "type": "cluster",
+    "constellation": {
+      "zh-TW": "金牛座",
+      "en": "Taurus"
+    },
+    "raDeg": 56.85,
+    "decDeg": 24.11666667,
+    "epoch": "J2000",
+    "magnitude": 1.6,
+    "angularSize": "110′",
+    "distance": "444 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "冬季在金牛座附近尋找一小群肉眼可辨的明亮藍白色恆星。",
+      "en": "Look for a compact group of bright stars in Taurus in winter."
+    },
+    "related": [
+      "m1"
+    ]
+  },
+  {
+    "id": "m8",
+    "name": {
+      "zh-TW": "礁湖星雲",
+      "en": "Lagoon Nebula"
+    },
+    "aliases": [
+      "NGC 6523"
+    ],
+    "type": "nebula",
+    "constellation": {
+      "zh-TW": "人馬座",
+      "en": "Sagittarius"
+    },
+    "raDeg": 270.90416667,
+    "decDeg": -24.38333333,
+    "epoch": "J2000",
+    "magnitude": 6.0,
+    "angularSize": "90′ × 40′",
+    "distance": "4,100 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "夏季在南方人馬座茶壺附近，沿銀河帶尋找大型星雲。",
+      "en": "Follow the summer Milky Way near the Sagittarius Teapot."
+    },
+    "related": [
+      "m20",
+      "m17"
+    ]
+  },
+  {
+    "id": "m13",
+    "name": {
+      "zh-TW": "武仙座大球狀星團",
+      "en": "Great Hercules Cluster"
+    },
+    "aliases": [
+      "NGC 6205"
+    ],
+    "type": "cluster",
+    "constellation": {
+      "zh-TW": "武仙座",
+      "en": "Hercules"
+    },
+    "raDeg": 250.42083333,
+    "decDeg": 36.45,
+    "epoch": "J2000",
+    "magnitude": 5.8,
+    "angularSize": "20′",
+    "distance": "25,000 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "先找武仙座四邊形，使用低倍率搜尋邊緣附近的球狀星團。",
+      "en": "Find the Hercules Keystone, then sweep at low magnification."
+    },
+    "related": [
+      "vega"
+    ]
+  },
+  {
+    "id": "m27",
+    "name": {
+      "zh-TW": "啞鈴星雲",
+      "en": "Dumbbell Nebula"
+    },
+    "aliases": [
+      "NGC 6853"
+    ],
+    "type": "planetary",
+    "constellation": {
+      "zh-TW": "狐狸座",
+      "en": "Vulpecula"
+    },
+    "raDeg": 299.90416667,
+    "decDeg": 22.71666667,
+    "epoch": "J2000",
+    "magnitude": 7.5,
+    "angularSize": "8′ × 6′",
+    "distance": "1,360 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "由牛郎星向北找狐狸座，低倍定位後再放大。",
+      "en": "Start near Altair and move north toward Vulpecula."
+    },
+    "related": [
+      "altair",
+      "m57"
+    ]
+  },
+  {
+    "id": "m57",
+    "name": {
+      "zh-TW": "環狀星雲",
+      "en": "Ring Nebula"
+    },
+    "aliases": [
+      "NGC 6720"
+    ],
+    "type": "planetary",
+    "constellation": {
+      "zh-TW": "天琴座",
+      "en": "Lyra"
+    },
+    "raDeg": 283.39583333,
+    "decDeg": 33.03333333,
+    "epoch": "J2000",
+    "magnitude": 8.8,
+    "angularSize": "1.4′",
+    "distance": "2,300 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "在天琴座平行四邊形的兩顆星之間搜尋；高倍率較易分辨輪廓。",
+      "en": "Find the target between the two lower stars of the Lyra parallelogram."
+    },
+    "related": [
+      "vega",
+      "m27"
+    ]
+  },
+  {
+    "id": "ngc7000",
+    "name": {
+      "zh-TW": "北美星雲",
+      "en": "North America Nebula"
+    },
+    "aliases": [
+      "Caldwell 20"
+    ],
+    "type": "nebula",
+    "constellation": {
+      "zh-TW": "天鵝座",
+      "en": "Cygnus"
+    },
+    "raDeg": 314.82083333,
+    "decDeg": 44.51666667,
+    "epoch": "J2000",
+    "magnitude": 4.0,
+    "angularSize": "120′ × 100′",
+    "distance": "2,590 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "由天津四附近向東側搜尋，大視野與窄頻濾鏡較合適。",
+      "en": "Search east of Deneb; a wide field and narrowband filters help."
+    },
+    "related": [
+      "ngc6960",
+      "ngc6992"
+    ]
+  },
+  {
+    "id": "sirius",
+    "name": {
+      "zh-TW": "天狼星",
+      "en": "Sirius"
+    },
+    "aliases": [
+      "Alpha Canis Majoris"
+    ],
+    "type": "star",
+    "constellation": {
+      "zh-TW": "大犬座",
+      "en": "Canis Major"
+    },
+    "raDeg": 101.2875,
+    "decDeg": -16.7,
+    "epoch": "J2000",
+    "magnitude": -1.46,
+    "angularSize": "—",
+    "distance": "8.6 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "先確認大犬座的主要亮星，再使用 J2000 座標與獨立星圖核對位置。",
+      "en": "Identify Canis Major, then verify this J2000 position with an independent sky chart."
+    },
+    "related": []
+  },
+  {
+    "id": "vega",
+    "name": {
+      "zh-TW": "織女星",
+      "en": "Vega"
+    },
+    "aliases": [
+      "Alpha Lyrae"
+    ],
+    "type": "star",
+    "constellation": {
+      "zh-TW": "天琴座",
+      "en": "Lyra"
+    },
+    "raDeg": 279.23333333,
+    "decDeg": 38.78333333,
+    "epoch": "J2000",
+    "magnitude": 0.03,
+    "angularSize": "—",
+    "distance": "25 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "夏季大三角中明亮的藍白色恆星，位於天琴座。",
+      "en": "The bright blue-white star in Lyra and the Summer Triangle."
+    },
+    "related": [
+      "altair",
+      "m57"
+    ]
+  },
+  {
+    "id": "betelgeuse",
+    "name": {
+      "zh-TW": "參宿四",
+      "en": "Betelgeuse"
+    },
+    "aliases": [
+      "Alpha Orionis"
+    ],
+    "type": "star",
+    "constellation": {
+      "zh-TW": "獵戶座",
+      "en": "Orion"
+    },
+    "raDeg": 88.79166667,
+    "decDeg": 7.4,
+    "epoch": "J2000",
+    "magnitude": 0.5,
+    "angularSize": "—",
+    "distance": "約 640 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "先確認獵戶座的主要亮星，再使用 J2000 座標與獨立星圖核對位置。",
+      "en": "Identify Orion, then verify this J2000 position with an independent sky chart."
+    },
+    "related": []
+  },
+  {
+    "id": "rigel",
+    "name": {
+      "zh-TW": "參宿七",
+      "en": "Rigel"
+    },
+    "aliases": [
+      "Beta Orionis"
+    ],
+    "type": "star",
+    "constellation": {
+      "zh-TW": "獵戶座",
+      "en": "Orion"
+    },
+    "raDeg": 78.63333333,
+    "decDeg": -8.2,
+    "epoch": "J2000",
+    "magnitude": 0.13,
+    "angularSize": "—",
+    "distance": "約 860 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "先確認獵戶座的主要亮星，再使用 J2000 座標與獨立星圖核對位置。",
+      "en": "Identify Orion, then verify this J2000 position with an independent sky chart."
+    },
+    "related": []
+  },
+  {
+    "id": "polaris",
+    "name": {
+      "zh-TW": "北極星",
+      "en": "Polaris"
+    },
+    "aliases": [
+      "Alpha Ursae Minoris"
+    ],
+    "type": "star",
+    "constellation": {
+      "zh-TW": "小熊座",
+      "en": "Ursa Minor"
+    },
+    "raDeg": 37.95416667,
+    "decDeg": 89.26666667,
+    "epoch": "J2000",
+    "magnitude": 1.98,
+    "angularSize": "—",
+    "distance": "約 433 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "沿北斗七星斗口兩星向北延長約五倍距離。",
+      "en": "Extend a line from the Big Dipper pointer stars."
+    },
+    "related": [
+      "mizar"
+    ]
+  },
+  {
+    "id": "antares",
+    "name": {
+      "zh-TW": "心宿二",
+      "en": "Antares"
+    },
+    "aliases": [
+      "Alpha Scorpii"
+    ],
+    "type": "star",
+    "constellation": {
+      "zh-TW": "天蠍座",
+      "en": "Scorpius"
+    },
+    "raDeg": 247.35,
+    "decDeg": -26.43333333,
+    "epoch": "J2000",
+    "magnitude": 0.96,
+    "angularSize": "—",
+    "distance": "約 550 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "先確認天蠍座的主要亮星，再使用 J2000 座標與獨立星圖核對位置。",
+      "en": "Identify Scorpius, then verify this J2000 position with an independent sky chart."
+    },
+    "related": []
+  },
+  {
+    "id": "m1",
+    "name": {
+      "zh-TW": "蟹狀星雲",
+      "en": "Crab Nebula"
+    },
+    "aliases": [
+      "NGC 1952"
+    ],
+    "type": "remnant",
+    "constellation": {
+      "zh-TW": "金牛座",
+      "en": "Taurus"
+    },
+    "raDeg": 83.63333333,
+    "decDeg": 22.01666667,
+    "epoch": "J2000",
+    "magnitude": 8.4,
+    "angularSize": "6′ × 4′",
+    "distance": "6,500 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "先找金牛座，使用星圖從金牛座 ζ 星附近精確跳轉。",
+      "en": "Use a detailed chart near Zeta Tauri in Taurus."
+    },
+    "related": [
+      "m45"
+    ]
+  },
+  {
+    "id": "m20",
+    "name": {
+      "zh-TW": "三裂星雲",
+      "en": "Trifid Nebula"
+    },
+    "aliases": [
+      "NGC 6514"
+    ],
+    "type": "nebula",
+    "constellation": {
+      "zh-TW": "人馬座",
+      "en": "Sagittarius"
+    },
+    "raDeg": 270.59583333,
+    "decDeg": -23.03333333,
+    "epoch": "J2000",
+    "magnitude": 6.3,
+    "angularSize": "28′",
+    "distance": "5,200 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "找到 M8 後往北移動，在同一片夏季銀河區域搜尋。",
+      "en": "After finding M8, move north along the summer Milky Way."
+    },
+    "related": [
+      "m8",
+      "m17"
+    ]
+  },
+  {
+    "id": "m51",
+    "name": {
+      "zh-TW": "渦狀星系",
+      "en": "Whirlpool Galaxy"
+    },
+    "aliases": [
+      "NGC 5194"
+    ],
+    "type": "galaxy",
+    "constellation": {
+      "zh-TW": "獵犬座",
+      "en": "Canes Venatici"
+    },
+    "raDeg": 202.47083333,
+    "decDeg": 47.2,
+    "epoch": "J2000",
+    "magnitude": 8.4,
+    "angularSize": "11′ × 7′",
+    "distance": "2,300 萬光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "從北斗七星斗柄末端的常陳一附近向南搜尋。",
+      "en": "Sweep south from Alkaid at the end of the Big Dipper handle."
+    },
+    "related": [
+      "m101"
+    ]
+  },
+  {
+    "id": "m81",
+    "name": {
+      "zh-TW": "波德星系",
+      "en": "Bode's Galaxy"
+    },
+    "aliases": [
+      "NGC 3031"
+    ],
+    "type": "galaxy",
+    "constellation": {
+      "zh-TW": "大熊座",
+      "en": "Ursa Major"
+    },
+    "raDeg": 148.8875,
+    "decDeg": 69.06666667,
+    "epoch": "J2000",
+    "magnitude": 6.9,
+    "angularSize": "27′ × 14′",
+    "distance": "1,170 萬光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "在大熊座方向以低倍率找 M81 與 M82 這對鄰近星系。",
+      "en": "Sweep Ursa Major for the nearby M81–M82 pair."
+    },
+    "related": [
+      "m82"
+    ]
+  },
+  {
+    "id": "m82",
+    "name": {
+      "zh-TW": "雪茄星系",
+      "en": "Cigar Galaxy"
+    },
+    "aliases": [
+      "NGC 3034"
+    ],
+    "type": "galaxy",
+    "constellation": {
+      "zh-TW": "大熊座",
+      "en": "Ursa Major"
+    },
+    "raDeg": 148.96666667,
+    "decDeg": 69.66666667,
+    "epoch": "J2000",
+    "magnitude": 8.4,
+    "angularSize": "11′ × 5′",
+    "distance": "1,150 萬光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "先定位 M81，再找附近細長的 M82。",
+      "en": "Find M81 first and then seek the thin M82 galaxy nearby."
+    },
+    "related": [
+      "m81"
+    ]
+  },
+  {
+    "id": "m16",
+    "name": {
+      "zh-TW": "鷹星雲",
+      "en": "Eagle Nebula"
+    },
+    "aliases": [
+      "NGC 6611"
+    ],
+    "type": "nebula",
+    "constellation": {
+      "zh-TW": "巨蛇座",
+      "en": "Serpens"
+    },
+    "raDeg": 274.7,
+    "decDeg": -13.78333333,
+    "epoch": "J2000",
+    "magnitude": 6.4,
+    "angularSize": "35′",
+    "distance": "7,000 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "沿人馬座北側的夏季銀河向北移動，接近 M17 一帶。",
+      "en": "Move north from Sagittarius along the summer Milky Way, beyond M17."
+    },
+    "related": [
+      "m17",
+      "m20"
+    ]
+  },
+  {
+    "id": "m17",
+    "name": {
+      "zh-TW": "奧米加星雲",
+      "en": "Omega Nebula"
+    },
+    "aliases": [
+      "NGC 6618",
+      "Swan Nebula"
+    ],
+    "type": "nebula",
+    "constellation": {
+      "zh-TW": "人馬座",
+      "en": "Sagittarius"
+    },
+    "raDeg": 275.2,
+    "decDeg": -16.18333333,
+    "epoch": "J2000",
+    "magnitude": 6.0,
+    "angularSize": "46′ × 37′",
+    "distance": "5,500 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "從 M8 沿銀河向北，依序經過 M20、M16 附近。",
+      "en": "Travel north from M8 along the Milky Way near M20 and M16."
+    },
+    "related": [
+      "m8",
+      "m20",
+      "m16"
+    ]
+  },
+  {
+    "id": "m33",
+    "name": {
+      "zh-TW": "三角座星系",
+      "en": "Triangulum Galaxy"
+    },
+    "aliases": [
+      "NGC 598"
+    ],
+    "type": "galaxy",
+    "constellation": {
+      "zh-TW": "三角座",
+      "en": "Triangulum"
+    },
+    "raDeg": 23.45833333,
+    "decDeg": 30.65,
+    "epoch": "J2000",
+    "magnitude": 5.72,
+    "angularSize": "73′ × 45′",
+    "distance": "273 萬光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "由仙女座往南找三角座，低表面亮度需要良好暗空。",
+      "en": "Look south of Andromeda toward Triangulum; dark skies are important."
+    },
+    "related": [
+      "m31"
+    ]
+  },
+  {
+    "id": "m101",
+    "name": {
+      "zh-TW": "風車星系",
+      "en": "Pinwheel Galaxy"
+    },
+    "aliases": [
+      "NGC 5457"
+    ],
+    "type": "galaxy",
+    "constellation": {
+      "zh-TW": "大熊座",
+      "en": "Ursa Major"
+    },
+    "raDeg": 210.80416667,
+    "decDeg": 54.33333333,
+    "epoch": "J2000",
+    "magnitude": 7.9,
+    "angularSize": "29′ × 27′",
+    "distance": "2,100 萬光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "由北斗七星斗柄附近向外移動，須搭配可靠星圖。",
+      "en": "Work outward from the Big Dipper handle with a reliable finder chart."
+    },
+    "related": [
+      "m51"
+    ]
+  },
+  {
+    "id": "ngc1499",
+    "name": {
+      "zh-TW": "加州星雲",
+      "en": "California Nebula"
+    },
+    "aliases": [
+      "Sh2-220"
+    ],
+    "type": "nebula",
+    "constellation": {
+      "zh-TW": "英仙座",
+      "en": "Perseus"
+    },
+    "raDeg": 60.825,
+    "decDeg": 36.36666667,
+    "epoch": "J2000",
+    "magnitude": 6.0,
+    "angularSize": "145′ × 40′",
+    "distance": "1,000 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "先確認英仙座的主要亮星，再使用 J2000 座標與獨立星圖核對位置。",
+      "en": "Identify Perseus, then verify this J2000 position with an independent sky chart."
+    },
+    "related": []
+  },
+  {
+    "id": "ngc2024",
+    "name": {
+      "zh-TW": "火焰星雲",
+      "en": "Flame Nebula"
+    },
+    "aliases": [
+      "Sh2-277"
+    ],
+    "type": "nebula",
+    "constellation": {
+      "zh-TW": "獵戶座",
+      "en": "Orion"
+    },
+    "raDeg": 85.475,
+    "decDeg": -1.85,
+    "epoch": "J2000",
+    "magnitude": 10.0,
+    "angularSize": "30′",
+    "distance": "1,400 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "靠近獵戶座腰帶東側的參宿一，注意旁邊的 IC 434。",
+      "en": "Look immediately beside Alnitak near the eastern end of Orion’s Belt."
+    },
+    "related": [
+      "ic434",
+      "b33",
+      "m42"
+    ]
+  },
+  {
+    "id": "ic434",
+    "name": {
+      "zh-TW": "IC 434 發射星雲",
+      "en": "IC 434 Emission Nebula"
+    },
+    "aliases": [
+      "IC 434"
+    ],
+    "type": "nebula",
+    "constellation": {
+      "zh-TW": "獵戶座",
+      "en": "Orion"
+    },
+    "raDeg": 85.25,
+    "decDeg": -2.45,
+    "epoch": "J2000",
+    "magnitude": null,
+    "angularSize": "60′ × 10′",
+    "distance": "1,375 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "參宿一附近的 Hα 發射星雲，馬頭暗星雲 B33 是前景不同天體。",
+      "en": "An H-alpha emission region near Alnitak; the dark Horsehead B33 is distinct."
+    },
+    "related": [
+      "b33",
+      "ngc2024"
+    ]
+  },
+  {
+    "id": "b33",
+    "name": {
+      "zh-TW": "馬頭星雲",
+      "en": "Horsehead Nebula"
+    },
+    "aliases": [
+      "Barnard 33",
+      "Horsehead"
+    ],
+    "type": "dark",
+    "constellation": {
+      "zh-TW": "獵戶座",
+      "en": "Orion"
+    },
+    "raDeg": 85.24583333,
+    "decDeg": -2.46666667,
+    "epoch": "J2000",
+    "magnitude": null,
+    "angularSize": "8′ × 6′",
+    "distance": "1,375 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "馬頭暗星雲 B33 位在 IC 434 前方，需要專業星圖與攝影設備定位。",
+      "en": "The dark cloud B33 lies in front of IC 434; imaging gear and a finder chart help."
+    },
+    "related": [
+      "ic434",
+      "ngc2024"
+    ]
+  },
+  {
+    "id": "ic1805",
+    "name": {
+      "zh-TW": "心臟星雲",
+      "en": "Heart Nebula"
+    },
+    "aliases": [
+      "Sh2-190"
+    ],
+    "type": "nebula",
+    "constellation": {
+      "zh-TW": "仙后座",
+      "en": "Cassiopeia"
+    },
+    "raDeg": 38.25,
+    "decDeg": 61.45,
+    "epoch": "J2000",
+    "magnitude": null,
+    "angularSize": "150′",
+    "distance": "7,500 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "在仙后座附近搜尋，與 IC 1848 常合併規劃廣角構圖。",
+      "en": "Near Cassiopeia; often framed with IC 1848."
+    },
+    "related": [
+      "ic1848"
+    ]
+  },
+  {
+    "id": "ic1848",
+    "name": {
+      "zh-TW": "胎兒星雲",
+      "en": "Soul Nebula"
+    },
+    "aliases": [
+      "Sh2-199"
+    ],
+    "type": "nebula",
+    "constellation": {
+      "zh-TW": "仙后座",
+      "en": "Cassiopeia"
+    },
+    "raDeg": 42.75,
+    "decDeg": 60.43333333,
+    "epoch": "J2000",
+    "magnitude": null,
+    "angularSize": "150′",
+    "distance": "7,500 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "在心臟星雲 IC 1805 一旁，適合廣角構圖。",
+      "en": "Look beside Heart Nebula IC 1805 for wide-field framing."
+    },
+    "related": [
+      "ic1805"
+    ]
+  },
+  {
+    "id": "ngc6992",
+    "name": {
+      "zh-TW": "東面紗星雲",
+      "en": "Eastern Veil Nebula"
+    },
+    "aliases": [
+      "Veil Nebula East"
+    ],
+    "type": "remnant",
+    "constellation": {
+      "zh-TW": "天鵝座",
+      "en": "Cygnus"
+    },
+    "raDeg": 314.07916667,
+    "decDeg": 31.71666667,
+    "epoch": "J2000",
+    "magnitude": null,
+    "angularSize": "70′ × 6′",
+    "distance": "2,400 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "先確認天鵝座的主要亮星，再使用 J2000 座標與獨立星圖核對位置。",
+      "en": "Identify Cygnus, then verify this J2000 position with an independent sky chart."
+    },
+    "related": []
+  },
+  {
+    "id": "ngc6960",
+    "name": {
+      "zh-TW": "西面紗星雲",
+      "en": "Western Veil Nebula"
+    },
+    "aliases": [
+      "Witch's Broom"
+    ],
+    "type": "remnant",
+    "constellation": {
+      "zh-TW": "天鵝座",
+      "en": "Cygnus"
+    },
+    "raDeg": 311.40833333,
+    "decDeg": 30.71666667,
+    "epoch": "J2000",
+    "magnitude": null,
+    "angularSize": "210′ × 3′",
+    "distance": "2,400 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "先確認天鵝座的主要亮星，再使用 J2000 座標與獨立星圖核對位置。",
+      "en": "Identify Cygnus, then verify this J2000 position with an independent sky chart."
+    },
+    "related": []
+  },
+  {
+    "id": "ngc869",
+    "name": {
+      "zh-TW": "英仙座 h 星團",
+      "en": "Double Cluster h"
+    },
+    "aliases": [
+      "Caldwell 14"
+    ],
+    "type": "cluster",
+    "constellation": {
+      "zh-TW": "英仙座",
+      "en": "Perseus"
+    },
+    "raDeg": 34.75,
+    "decDeg": 57.13333333,
+    "epoch": "J2000",
+    "magnitude": 5.3,
+    "angularSize": "30′",
+    "distance": "7,600 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "從仙后座沿銀河向英仙座移動；與 NGC 884 同框。",
+      "en": "Move along the Milky Way from Cassiopeia toward Perseus."
+    },
+    "related": [
+      "ngc884"
+    ]
+  },
+  {
+    "id": "ngc884",
+    "name": {
+      "zh-TW": "英仙座 χ 星團",
+      "en": "Double Cluster chi"
+    },
+    "aliases": [
+      "Caldwell 23"
+    ],
+    "type": "cluster",
+    "constellation": {
+      "zh-TW": "英仙座",
+      "en": "Perseus"
+    },
+    "raDeg": 35.5,
+    "decDeg": 57.11666667,
+    "epoch": "J2000",
+    "magnitude": 6.1,
+    "angularSize": "30′",
+    "distance": "7,500 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "與 NGC 869 相鄰，可用雙筒望遠鏡同時觀察。",
+      "en": "View it close to NGC 869, often in the same binocular field."
+    },
+    "related": [
+      "ngc869"
+    ]
+  },
+  {
+    "id": "ngc2392",
+    "name": {
+      "zh-TW": "小丑星雲",
+      "en": "Clown Nebula"
+    },
+    "aliases": [
+      "Eskimo Nebula"
+    ],
+    "type": "planetary",
+    "constellation": {
+      "zh-TW": "雙子座",
+      "en": "Gemini"
+    },
+    "raDeg": 112.29583333,
+    "decDeg": 20.91666667,
+    "epoch": "J2000",
+    "magnitude": 9.2,
+    "angularSize": "48″",
+    "distance": "6,500 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "先確認雙子座的主要亮星，再使用 J2000 座標與獨立星圖核對位置。",
+      "en": "Identify Gemini, then verify this J2000 position with an independent sky chart."
+    },
+    "related": []
+  },
+  {
+    "id": "ngc4565",
+    "name": {
+      "zh-TW": "針狀星系",
+      "en": "Needle Galaxy"
+    },
+    "aliases": [
+      "Caldwell 38"
+    ],
+    "type": "galaxy",
+    "constellation": {
+      "zh-TW": "后髮座",
+      "en": "Coma Berenices"
+    },
+    "raDeg": 189.0875,
+    "decDeg": 25.98333333,
+    "epoch": "J2000",
+    "magnitude": 9.6,
+    "angularSize": "16′ × 2′",
+    "distance": "4,200 萬光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "先確認后髮座的主要亮星，再使用 J2000 座標與獨立星圖核對位置。",
+      "en": "Identify Coma Berenices, then verify this J2000 position with an independent sky chart."
+    },
+    "related": []
+  },
+  {
+    "id": "mizar",
+    "name": {
+      "zh-TW": "開陽星",
+      "en": "Mizar"
+    },
+    "aliases": [
+      "Zeta Ursae Majoris"
+    ],
+    "type": "star",
+    "constellation": {
+      "zh-TW": "大熊座",
+      "en": "Ursa Major"
+    },
+    "raDeg": 200.97916667,
+    "decDeg": 54.91666667,
+    "epoch": "J2000",
+    "magnitude": 2.23,
+    "angularSize": "—",
+    "distance": "78 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "先確認大熊座的主要亮星，再使用 J2000 座標與獨立星圖核對位置。",
+      "en": "Identify Ursa Major, then verify this J2000 position with an independent sky chart."
+    },
+    "related": []
+  },
+  {
+    "id": "procyon",
+    "name": {
+      "zh-TW": "北河三",
+      "en": "Procyon"
+    },
+    "aliases": [
+      "Alpha Canis Minoris"
+    ],
+    "type": "star",
+    "constellation": {
+      "zh-TW": "小犬座",
+      "en": "Canis Minor"
+    },
+    "raDeg": 114.825,
+    "decDeg": 5.21666667,
+    "epoch": "J2000",
+    "magnitude": 0.34,
+    "angularSize": "—",
+    "distance": "11.5 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "冬季大三角的一角，從獵戶座向東尋找。",
+      "en": "Part of the Winter Triangle, east of Orion."
+    },
+    "related": [
+      "sirius",
+      "betelgeuse"
+    ]
+  },
+  {
+    "id": "altair",
+    "name": {
+      "zh-TW": "牛郎星",
+      "en": "Altair"
+    },
+    "aliases": [
+      "Alpha Aquilae"
+    ],
+    "type": "star",
+    "constellation": {
+      "zh-TW": "天鷹座",
+      "en": "Aquila"
+    },
+    "raDeg": 297.69583333,
+    "decDeg": 8.86666667,
+    "epoch": "J2000",
+    "magnitude": 0.77,
+    "angularSize": "—",
+    "distance": "16.7 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "夏季大三角的一角，位於天鷹座。",
+      "en": "One corner of the Summer Triangle in Aquila."
+    },
+    "related": [
+      "vega"
+    ]
+  },
+  {
+    "id": "arcturus",
+    "name": {
+      "zh-TW": "大角星",
+      "en": "Arcturus"
+    },
+    "aliases": [
+      "Alpha Bootis"
+    ],
+    "type": "star",
+    "constellation": {
+      "zh-TW": "牧夫座",
+      "en": "Bootes"
+    },
+    "raDeg": 213.91666667,
+    "decDeg": 19.18333333,
+    "epoch": "J2000",
+    "magnitude": -0.05,
+    "angularSize": "—",
+    "distance": "36.7 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "先確認牧夫座的主要亮星，再使用 J2000 座標與獨立星圖核對位置。",
+      "en": "Identify Bootes, then verify this J2000 position with an independent sky chart."
+    },
+    "related": []
+  },
+  {
+    "id": "spica",
+    "name": {
+      "zh-TW": "角宿一",
+      "en": "Spica"
+    },
+    "aliases": [
+      "Alpha Virginis"
+    ],
+    "type": "star",
+    "constellation": {
+      "zh-TW": "室女座",
+      "en": "Virgo"
+    },
+    "raDeg": 201.3,
+    "decDeg": -11.15,
+    "epoch": "J2000",
+    "magnitude": 0.98,
+    "angularSize": "—",
+    "distance": "250 光年",
+    "dataStatus": "needs-review",
+    "source": "AstroLab legacy curated data",
+    "guide": {
+      "zh-TW": "先確認室女座的主要亮星，再使用 J2000 座標與獨立星圖核對位置。",
+      "en": "Identify Virgo, then verify this J2000 position with an independent sky chart."
+    },
+    "related": []
+  },
+  {
+    "id": "jupiter",
+    "name": {
+      "zh-TW": "木星",
+      "en": "Jupiter"
+    },
+    "aliases": [
+      "Jupiter"
+    ],
+    "type": "planet",
+    "constellation": {
+      "zh-TW": "依日期變動",
+      "en": "Changes with date"
+    },
+    "raDeg": null,
+    "decDeg": null,
+    "epoch": "J2000",
+    "magnitude": null,
+    "angularSize": "依日期變動",
+    "distance": "依日期變動",
+    "dataStatus": "index",
+    "source": "Solar system moving object (ephemeris not implemented)",
+    "guide": {
+      "zh-TW": "此天體會移動，不應使用固定赤經赤緯。請使用專業星曆查詢當日位置。",
+      "en": "This object moves across the sky. Consult a current ephemeris for its position."
+    },
+    "related": []
+  },
+  {
+    "id": "saturn",
+    "name": {
+      "zh-TW": "土星",
+      "en": "Saturn"
+    },
+    "aliases": [
+      "Saturn"
+    ],
+    "type": "planet",
+    "constellation": {
+      "zh-TW": "依日期變動",
+      "en": "Changes with date"
+    },
+    "raDeg": null,
+    "decDeg": null,
+    "epoch": "J2000",
+    "magnitude": null,
+    "angularSize": "依日期變動",
+    "distance": "依日期變動",
+    "dataStatus": "index",
+    "source": "Solar system moving object (ephemeris not implemented)",
+    "guide": {
+      "zh-TW": "此天體會移動，不應使用固定赤經赤緯。請使用專業星曆查詢當日位置。",
+      "en": "This object moves across the sky. Consult a current ephemeris for its position."
+    },
+    "related": []
+  }
+]

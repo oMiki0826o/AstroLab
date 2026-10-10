@@ -1,5 +1,6 @@
-"use client";
-import Link from "next/link"; import { useMemo, useState } from "react"; import ThemeToggle from "../../../../components/theme-toggle";
-function age(date:string){const known=Date.UTC(2000,0,6,18,14);return ((new Date(`${date}T00:00:00Z`).getTime()-known)/86400000%29.530588+29.530588)%29.530588}
-function phaseName(value:number){return value<1||value>28.5?"New moon":value<7.4?"Waxing crescent":value<14.8?"First quarter":value<22.1?"Waxing gibbous":value<25?"After full moon":value<28.5?"Last quarter":"Waning crescent"}
-export default function EnglishMoon(){const [date,setDate]=useState(new Date().toISOString().slice(0,10));const lunarAge=useMemo(()=>age(date),[date]);const illumination=(1-Math.cos(lunarAge/29.530588*Math.PI*2))/2*100;const phase=phaseName(lunarAge);return <main className="app" lang="en"><div className="app-header"><div><Link className="back" href="/AstroLab/en/astro/tools/">← Observation tools</Link><h1>Moon Phase Explorer</h1><p className="muted">Check the moonlight before planning faint nebula and galaxy targets.</p></div><ThemeToggle/></div><section className="panel moon-panel"><label className="field-label">Date<input className="field" type="date" value={date} onChange={e=>setDate(e.target.value)}/></label><div className="moon-visual" style={{["--moon-progress" as string]:`${illumination}%`}} aria-label={`Moon phase: ${phase}`}><div className="moon-disc"/></div><div className="moon-reading"><span className="eyebrow">{phase}</span><h2>{lunarAge.toFixed(1)} days old</h2><p className="muted">Approximate illumination: {illumination.toFixed(0)}%. This is a planning estimate, not local rise/set data.</p></div></section></main>}
+/*
+ * File: page.tsx
+ * Modification: 2026-10-11 - Shared bilingual moon page.
+ */
+import AstroApp from "@/components/astro-app";
+export default function Page() { return <AstroApp locale="en" view="moon" />; }

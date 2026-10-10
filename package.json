@@ -1,10 +1,28 @@
 {
   "name": "astrolab",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
-  "scripts": {"dev":"next dev","check:data":"node tools/check_astro_data.mjs","prebuild":"npm run check:data && node tools/generate_astro_catalog.mjs","build":"next build","start":"next start","test":"vitest run","typecheck":"tsc --noEmit","check":"npm test && npm run typecheck && npm run build && python3 tools/check_static.py"},
-  "dependencies": {"next":"^16.1.0","react":"^19.2.0","react-dom":"^19.2.0"},
-  "optionalDependencies": {"@rolldown/binding-linux-x64-gnu":"1.2.12"},
-  "devDependencies": {"@types/node":"^24.10.0","@types/react":"^19.2.2","@types/react-dom":"^19.2.2","jsdom":"^27.0.1","typescript":"^5.9.3","vitest":"^4.0.6"}
+  "scripts": {
+    "dev": "next dev",
+    "build": "npm run check:data && next build",
+    "start": "next start",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "check:data": "node tools/validate-data.mjs",
+    "check:static": "python3 tools/check-static.py",
+    "check": "npm run check:data && npm run test && npm run typecheck && npm run build && npm run check:static"
+  },
+  "dependencies": {
+    "next": "^16.1.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.6"
+  }
 }

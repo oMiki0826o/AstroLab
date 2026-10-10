@@ -1,6 +1,0 @@
-.astro-map-panel{max-width:900px;margin-inline:auto}
-.astro-map{display:block;width:100%;height:auto;min-height:260px;border:1px solid var(--line);border-radius:16px;background:var(--card)}
-.astro-map a{cursor:pointer}
-.astro-map a:hover circle{fill:var(--focus);stroke:var(--accent);stroke-width:2}
-.astro-map-legend{display:flex;justify-content:space-between;gap:12px;margin-top:10px;color:var(--muted);font-size:.85rem}
-@media (max-width:640px){.astro-map-legend{display:grid;gap:4px}.astro-map{min-height:220px}}
