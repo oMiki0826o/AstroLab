@@ -11,7 +11,8 @@ AstroLab is a static, no-login astronomy toolkit for searching Messier, NGC, IC 
 - Sky Tonight：用觀測時間與位置估算高度角、方位角。
 - Deep Sky Finder、Constellation Explorer、Moon Phase Explorer。
 - Equipment Planner、Exposure Calculator、Target Comparison。
-- 英文入口 `/en/`：提供上述工具的英文導覽；天體資料與主要工具頁仍以繁中內容為主，正在分批補齊。
+- 相對星圖 `/astro/map/`：依赤經／赤緯繪製可點選的目標分布示意，點擊星點可開啟詳細資料。
+- 英文入口 `/en/`：提供工具導覽與天體詳細頁；目錄資料共用同一份靜態來源，工具內文仍以繁中內容為主，逐步補齊。
 - 天體詳細頁會標示資料狀態與來源；`index` 項目只代表可搜尋索引，不等同完整星曆資料。
 
 ## 開發
