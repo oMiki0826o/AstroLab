@@ -21,6 +21,7 @@ export const markdownCatalog = [
       "Dubhe"
     ],
     "searchGuide": "先找到北斗七星，沿斗柄數第二顆就是開陽星。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   },
   {
@@ -44,6 +45,7 @@ export const markdownCatalog = [
       "Rigel"
     ],
     "searchGuide": "找到獵戶座後向東側尋找明亮白色星，即為北河三。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   },
   {
@@ -67,6 +69,7 @@ export const markdownCatalog = [
       "Tarazed"
     ],
     "searchGuide": "夏季尋找織女星後，向南偏東尋找另一顆亮星就是牛郎星。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   },
   {
@@ -90,6 +93,7 @@ export const markdownCatalog = [
       "M8"
     ],
     "searchGuide": "夏季沿銀河由礁湖星雲向北尋找，適合廣角或窄頻攝影。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   },
   {
@@ -114,6 +118,7 @@ export const markdownCatalog = [
       "M8"
     ],
     "searchGuide": "從 M8 向北尋找，低倍望遠鏡與相機都容易捕捉。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   },
   {
@@ -137,6 +142,7 @@ export const markdownCatalog = [
       "Algol"
     ],
     "searchGuide": "從仙女座大星系往南找三角座，使用低倍率與較大視野搜尋淡淡的橢圓光斑。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   },
   {
@@ -160,6 +166,7 @@ export const markdownCatalog = [
       "M43"
     ],
     "searchGuide": "尋找獵戶座腰帶下方的劍，劍中央那片朦朧光斑就是 M42。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   },
   {
@@ -183,6 +190,7 @@ export const markdownCatalog = [
       "M1"
     ],
     "searchGuide": "冬季尋找金牛座附近的小型星群，肉眼常能數到六至七顆亮星。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   },
   {
@@ -206,6 +214,7 @@ export const markdownCatalog = [
       "Sulafat"
     ],
     "searchGuide": "找到織女星後，在天琴座平行四邊形的兩顆下側亮星之間搜尋。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   },
   {
@@ -229,6 +238,7 @@ export const markdownCatalog = [
       "M51"
     ],
     "searchGuide": "從北斗斗柄末端向東北尋找，拍攝時使用較大的視野保留旋臂結構。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   },
   {
@@ -251,6 +261,7 @@ export const markdownCatalog = [
       "M64"
     ],
     "searchGuide": "春季由獵犬座與后髮座交界尋找，建議用中長焦與星圖核對。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   },
   {
@@ -274,6 +285,7 @@ export const markdownCatalog = [
       "Flame Nebula"
     ],
     "searchGuide": "以獵戶座腰帶最東側的參宿一（Alnitak）為定位點，向南尋找發射星雲 IC 434。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   },
   {
@@ -297,6 +309,7 @@ export const markdownCatalog = [
       "Algol"
     ],
     "searchGuide": "從仙后座 W 形向東南尋找，雙星團位於英仙座與仙后座之間的銀河帶。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   },
   {
@@ -320,6 +333,7 @@ export const markdownCatalog = [
       "Algol"
     ],
     "searchGuide": "先找到 NGC 869，向東移動約半度即可看到另一團星群。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   },
   {
@@ -342,6 +356,7 @@ export const markdownCatalog = [
       "Algol"
     ],
     "searchGuide": "以英仙座最亮星 Mirfak 為定位，向東北延伸搜尋長條狀星雲。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   },
   {
@@ -365,6 +380,7 @@ export const markdownCatalog = [
       "M42"
     ],
     "searchGuide": "以獵戶座腰帶最東側參宿一為中心，火焰星雲就在其東側附近。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   },
   {
@@ -388,6 +404,7 @@ export const markdownCatalog = [
       "Double Cluster"
     ],
     "searchGuide": "從仙后座中央向東尋找，適合搭配胎兒星雲做雙目標構圖。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   },
   {
@@ -411,6 +428,7 @@ export const markdownCatalog = [
       "NGC 869"
     ],
     "searchGuide": "找到心臟星雲後向東南尋找，兩者常被一起稱為 Heart and Soul。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   },
   {
@@ -434,6 +452,7 @@ export const markdownCatalog = [
       "Deneb"
     ],
     "searchGuide": "以天鵝座與天津四為大方向，使用廣角星圖尋找面紗環形結構。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   },
   {
@@ -457,6 +476,7 @@ export const markdownCatalog = [
       "Deneb"
     ],
     "searchGuide": "先找天鵝座，再用東西面紗的相對位置與星圖核對。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   },
   {
@@ -480,6 +500,7 @@ export const markdownCatalog = [
       "Algol"
     ],
     "searchGuide": "從仙后座沿銀河帶向英仙座移動，雙星團會呈現兩團緊鄰的星點。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   },
   {
@@ -503,6 +524,7 @@ export const markdownCatalog = [
       "Schedar"
     ],
     "searchGuide": "找到 NGC 869 後，向西側尋找另一團密集星群即可。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   },
   {
@@ -526,6 +548,7 @@ export const markdownCatalog = [
       "Procyon"
     ],
     "searchGuide": "先找到雙子座的 Castor 與 Pollux，再以星圖搜尋雙子座北側的 NGC 2392。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   },
   {
@@ -549,6 +572,7 @@ export const markdownCatalog = [
       "M53"
     ],
     "searchGuide": "從北斗七星斗柄往南找牧夫座大角星，再向后髮座方向移動。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   },
   {
@@ -572,6 +596,7 @@ export const markdownCatalog = [
       "Gamma Cygni"
     ],
     "searchGuide": "以天津四 Deneb 為中心向東側搜尋，星雲的形狀在窄頻影像中最容易辨認。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   },
   {
@@ -595,6 +620,7 @@ export const markdownCatalog = [
       "Rigel"
     ],
     "searchGuide": "沿獵戶座腰帶向東南延伸，第一顆醒目的白色亮星就是天狼星。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   },
   {
@@ -618,6 +644,7 @@ export const markdownCatalog = [
       "Cor Caroli"
     ],
     "searchGuide": "沿北斗七星斗柄弧線向南延伸，第一顆亮星就是大角星。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   },
   {
@@ -641,6 +668,7 @@ export const markdownCatalog = [
       "M104"
     ],
     "searchGuide": "找到大角星後向南延伸，靠近黃道的一顆亮星就是角宿一。",
+    "dataStatus": "complete",
     "source": "content/astro/common.md"
   }
 ] as const;
