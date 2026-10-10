@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.DS_Store
+
+# Local development data and AI workflow records; keep the entire directory out of Git.
+data/
+
+# Agent scratch space, generated prompts and local collaboration state.
+.agents/
+.codex/
+.claude/
+AGENTS.md
+CLAUDE.md
+*.local
