@@ -32,6 +32,16 @@ const curatedGuides: Record<string, Pick<AstroObject, "nearbyStars" | "searchGui
   m31: { nearbyStars: ["Mirach Beta Andromedae", "仙后座 Schedar", "M33 三角座星系"], searchGuide: "秋季先找大方框的仙后座或秋季四邊形，再沿仙女座鏈向外尋找一片淡淡的橢圓光斑。" },
   m42: { nearbyStars: ["參宿四 Betelgeuse", "參宿七 Rigel", "M43"], searchGuide: "先找獵戶座腰帶，向南看見劍部；劍部中央的朦朧亮斑就是 M42。" },
   m45: { nearbyStars: ["畢宿五 Aldebaran", "金牛座 Hyades", "M1 蟹狀星雲"], searchGuide: "冬季尋找金牛座，畢宿五附近那團肉眼可見的藍白色星群就是昴宿星團。" },
+  m8: { nearbyStars: ["M20 三裂星雲", "天蠍座心宿二", "人馬座茶壺"], searchGuide: "夏季面向南方找人馬座茶壺，沿著銀河的亮帶向北尋找，M8 在低倍星圖中很容易和 M20 同區辨認。" },
+  m13: { nearbyStars: ["織女星 Vega", "天琴座 β 星", "M92"], searchGuide: "春夏找武仙座的四邊形，從織女星方向往南移動；M13 位在兩個主要星群之間。" },
+  m27: { nearbyStars: ["牛郎星 Altair", "天箭座 γ 星", "M57"], searchGuide: "先找夏季大三角的牛郎星，再往天鵝座方向尋找小小的狐狸座；低倍星圖確認後再提高倍率。" },
+  m57: { nearbyStars: ["織女星 Vega", "天琴座 β 星", "M27"], searchGuide: "織女星是很好的起點，沿天琴座平行四邊形的長邊找中央位置；M57 在中高倍率下才容易看出環形。" },
+  ngc7000: { nearbyStars: ["天津四 Deneb", "北美星雲 Pelican Nebula", "天鵝座 γ 星"], searchGuide: "以天津四為中心向東側掃描，這是非常大的目標；用廣角或雙筒比高倍率望遠鏡更合適。" },
+  m1: { nearbyStars: ["畢宿五 Aldebaran", "M45 昴宿星團", "參宿七 Rigel"], searchGuide: "從獵戶座腰帶往西北找金牛座，再以畢宿五為參考；M1 很小且暗，最好直接用星圖跳轉。" },
+  m20: { nearbyStars: ["M8 礁湖星雲", "人馬座茶壺", "心宿二 Antares"], searchGuide: "找到 M8 後向北移動約一個視野，三裂星雲通常和礁湖星雲排在同一條夏季銀河路線上。" },
+  m51: { nearbyStars: ["常陳一 Alkaid", "北斗七星斗柄", "M101"], searchGuide: "從北斗七星斗柄末端常陳一向南搜尋，目標很暗，建議用低倍率先定位再放大。" },
+  m81: { nearbyStars: ["M82 雪茄星系", "北斗七星", "大熊座 24 UMa"], searchGuide: "從北斗七星外側往北找 M81/M82；兩個星系相距很近，適合用同一張星圖一起確認。" },
+  m82: { nearbyStars: ["M81 波德星系", "北斗七星", "大熊座 24 UMa"], searchGuide: "先定位 M81，再在同一個低倍視野附近尋找細長的 M82；暗空比放大倍率更重要。" },
 };
 for (const [id, guide] of Object.entries(curatedGuides)) {
   const item = catalog.find(entry => entry.id === id);
